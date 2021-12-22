@@ -1,0 +1,55 @@
+<!--Created by: DINH HOANG VIET PHUONG - #301123263 -->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<!--Main Content-->
+  <main class="container">
+    <div class="jumbotron">
+      <img src="/Assets/images/logo.jpg" alt="Vincent logo"> 
+      <h1 class="display-4">Welcome to the <%= title %> page.</h1>
+
+      <header>
+        <hr style="border-style:solid; border-color:black; border-width: 3px">
+          <h3>COMP229 - Web Application Development</h3>
+          <h4>Student name: Dinh, Hoang Viet Phuong (Vincent) - Student #301123263 </h4>
+          <hr style="border-style:solid; border-color:white; border-width: 3px">
+      </header>
+
+      <i><h3><p>I'm a student in the <b>Artificial Intelligence</b> program at Centennial College. Previously I studied at Architecture University in Vietnam.</p></h3></i>
+      <img src="/Assets/images/myself.jpg" alt="picture of myself." style="float:right;">
+
+      <h5><b><strong><i><em><a href = "https://drive.google.com/file/d/1QMTpdousTvmZS2NO7TgEjdDVWPuCYUs2/view?usp=sharing">Click here for my resume</a></em></i></strong></b></h5>
+
+      <h5><b><strong><i><em>Some of my favorite things to do are:</em></i></strong></b></h5>
+      <ul>
+      <li>Riding motorcycle</li>
+      <li>Playing games</li>
+      <li>Watching movies</li>
+      <li>Building Japanese robot</li>
+      <li>Collecting shoes</li>
+      <li>Listening to music</li>
+      </ul>
+
+      <h5><b><strong><i><em>I'm a big fan of:</em></i></strong></b></h5>
+      <ul>
+        <li>Jordan (One of the best basketball player in The World)</li>
+        <li>Taylor Swift (Best female country music singer)</li>
+        <li>Marvel (A fantasy world about superheroes)</li>
+      </ul>
+
+      <h5><b><strong><i><em>More information about me:</em></i></strong></b></h5>
+      <ul>
+        <li><a href = "/views/about">About me</a></li>
+        <li><a href = "/views/product">My product</a></li>
+        <li><a href = "/views/contact">Contact me</a></li>
+        <li><a href = "/views/services">My services</a></li>
+      </ul>
+
+    </div>
+  </main>
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>

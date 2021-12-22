@@ -1,0 +1,51 @@
+<!--Created by: DINH HOANG VIET PHUONG - #301123263 -->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<!--Main Content-->
+  <main class="container">
+    <div class="jumbotron">
+      <img src="/Assets/images/logo.jpg" alt="Vincent logo"> 
+      <h1 class="display-4">Welcome to the <%= title %> page.</h1>
+
+      <header>
+        <hr style="border-style:solid; border-color:black; border-width: 3px">
+          <h3>COMP229 - Web Application Development</h3>
+          <h4>Student name: Dinh, Hoang Viet Phuong (Vincent) - Student #301123263 </h4>
+          <hr style="border-style:solid; border-color:white; border-width: 3px">
+      </header>
+
+      <h5><b><strong><i><em>My product:</em></i></strong></b></h5>
+      <ul>
+        <li>My facebook: <a href = "https://www.facebook.com/vincentdinh.2305/">Vincent Dinh</a></li>
+        <li>My Instagram: <a href = "https://www.instagram.com/vincent_dinh_23/">Vincent Dinh</a></li>
+      </ul>
+
+      <h4>Personal photography 01: </h4>
+      <p>Idea: Aries in 12 constellations </p>
+      <img src ="/Assets/images/product01.jpg" alt="product01">
+      <br></br>
+      <h4>Personal photography 02: </h4>
+      <p>Idea: White butterflies are always alone, always beautiful, but carry a persistent sadness  </p>
+      <img src ="/Assets/images/product02.jpg" alt="product02">
+      <br></br>
+      <h4>Personal photography 03: </h4>
+      <p>Idea: A country girl who looks so gentle and beautiful  </p>
+      <img src ="/Assets/images/product03.jpg" alt="product03">
+      <br></br>
+      <h5><b><strong><i><em>More information about me:</em></i></strong></b></h5>
+      <ul>
+        <li><a href = "/views/about">About me</a></li>
+        <li><a href = "/views/product">My product</a></li>
+        <li><a href = "/views/contact">Contact me</a></li>
+        <li><a href = "/views/services">My services</a></li>
+      </ul>
+
+    </div>
+  </main>
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
